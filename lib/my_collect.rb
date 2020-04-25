@@ -1,7 +1,6 @@
 def my_collect (collection)
   counter =  0
   new_collection = []
-  while counter < array.length
   yield array [counter]
   counter += 1
 end
